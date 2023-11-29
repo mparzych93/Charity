@@ -46,16 +46,6 @@ public class DonationController {
 
     @PostMapping("/donation")
     public String addDonation(Donation donation) {
-/*        System.out.println(donation.getCategories());
-        System.out.println(donation.getInstitution());
-        System.out.println(donation.getZipCode());
-        System.out.println(donation.getCity());
-        System.out.println(donation.getStreet());
-        System.out.println(donation.getPhone());
-        System.out.println(donation.getPickUpDate());
-        System.out.println(donation.getPickUpTime());
-        System.out.println(donation.getPickUpComment());
-        System.out.println(donation.getQuantity());*/
         donationService.save(donation);
         return "redirect:/";
     }
