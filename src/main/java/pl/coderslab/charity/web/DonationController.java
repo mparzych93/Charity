@@ -47,6 +47,6 @@ public class DonationController {
     @PostMapping("/donation")
     public String addDonation(Donation donation) {
         donationService.save(donation);
-        return "redirect:/";
+        return "form-confirmation";
     }
 }
