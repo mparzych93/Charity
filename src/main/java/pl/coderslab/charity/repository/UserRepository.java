@@ -6,5 +6,5 @@ import pl.coderslab.charity.entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
-    User findByUserName(String userName);
+    User findByUsername(String username);
 }

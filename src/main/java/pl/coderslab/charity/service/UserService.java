@@ -3,6 +3,6 @@ package pl.coderslab.charity.service;
 import pl.coderslab.charity.entity.User;
 
 public interface UserService {
-    User findByUserName(String userName);
+    User findByUsername(String username);
     void saveUser(User user);
 }

@@ -12,7 +12,7 @@ public class User {
     private String firstName;
     private String lastName;
     @Column
-    private String userName;
+    private String username;
     @Column(nullable = false, unique = true, length = 60)
     private String email;
     @Column
@@ -47,12 +47,12 @@ public class User {
         this.lastName = lastName;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getEmail() {

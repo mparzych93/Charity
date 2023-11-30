@@ -30,7 +30,7 @@
     <h2>Zaloguj się</h2>
     <form method="post">
         <div class="form-group">
-            <input type="text" name="userName" placeholder="Login" />
+            <input type="text" name="username" placeholder="Login" />
         </div>
         <div class="form-group">
             <input type="password" name="password" placeholder="Hasło" />
